@@ -1,0 +1,17 @@
+<ion-modal-view class="modal" cache-view="false">
+    <ion-header-bar>
+        <button class="button button-clear cancel" ng-click="close()" >Cancel</button>
+      <h1 class="title">What do you think?</h1>
+
+    </ion-header-bar>
+    <ion-content>
+        <div class="submit-stuff">
+
+        <textarea class="compose" ng-model="postValue" >{{postValue}}
+        </textarea>
+        <button class="button submit-button" ng-click="submitPost(postValue)">Submit</button>
+
+        </div>
+
+    </ion-content>
+  </ion-modal-view>

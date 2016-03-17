@@ -1,0 +1,29 @@
+<ion-view view-title="CoolerTalk">
+  <ion-content>
+    <div class="card card-main">
+        <div class="item item-divider card-header" >
+            Topic of the day!
+        </div>
+            <div class="item item-text-wrap topic" ng-model="todaysTopic">
+                <a href={{todaysTopic.url}}>{{todaysTopic.title}}</a>
+            </div>
+        <div class="item item-divider" ng-model="todaysTopic">
+            {{todaysTopic.abstract}}
+        </div>
+    </div>
+      <div class="list card"  ng-repeat="post in posts | orderBy : '-points'">
+         <div class="card card-post">
+              <div class="item item-text-wrap response" ng-click="gotoPost(post)">
+                  {{post.text}}
+            </div>
+             <div class="item item-divider card-footer"><p>
+                 <a ng-click="gotoPost(post)" ><i class="ion-chatbubbles"></i></a>
+                 <button ng-click="gotoPost(post)" class="button-small button-clear"><a >Comments</a></button>
+
+                 <i ng-click="like(post)" class="ion-thumbsup">  {{post.points}}</i>
+
+            </p></div>
+          </div>
+      </div>
+  </ion-content>
+</ion-view>

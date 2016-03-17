@@ -1,0 +1,19 @@
+<ion-view view-title="Comments">
+  <ion-content >
+    <div class="list-card card-main">
+        <div class="item item-divider item-text-wrap post">
+            <i class="{{posterIcon}}" style="float:left"></i>
+            {{text}}
+        </div>
+        <div class="item item-divider card-footer comment" ng-repeat="comment in comments">
+          {{getCommentIcon(comment)}}
+            <i class="{{comment.icon}}" style="float:left;"></i> </br>
+            <div>{{comment.text}}</div>
+        </div>
+    </div>
+  </ion-content>
+  <ion-footer-bar>
+    <textarea ng-model="commentData" class="footer-textarea"></textarea>
+    <button class="button button-clear pull-right" ng-click="addComment(commentData)">Submit</button>
+  </ion-footer-bar>
+</ion-view>

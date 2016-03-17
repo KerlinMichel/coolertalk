@@ -1,0 +1,103 @@
+/* Empty. Add your own CSS if you like */
+.card-header {
+    font-size: 2em;
+    background-color: white;
+    color:#00a99d;
+}
+
+.cancel{
+    color: red;
+}
+.card-footer {
+    background-color: white;
+    color:#00a99d;
+}
+
+.card {
+    margin-top:3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    opacity: .85;
+    background-color: white;
+        color:#00a99d;
+
+}
+ion-content {
+    background-image: url("../img/bg-watercooler-phonedimensions.jpg");
+    background-size: cover;
+    color:#00a99d;
+}
+.topic a{
+    font-size: 35px;
+    line-height: 40px;
+        color:#00a99d;
+
+}
+
+.post {
+    font-size: 2em;
+    margin-top:3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    opacity: .85;
+    background-color: white;
+        color:#00a99d;
+    line-height: 1.3em;
+}
+
+.item {
+    margin-left: 2%;
+    margin-right: 2%;
+    opacity: .85;
+    background-color: white;
+        color:#00a99d;
+}
+
+.compose {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    width:90%;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    opacity: .85;
+}
+
+.response{
+    font-size: 1.5em;
+    color:#00a99d;
+}
+
+.submit-stuff{
+    text-align:center;
+}
+
+.submit-button{
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color:black;
+    font-size: 1.5em;
+}
+.footer-textarea{
+    width:80%;
+    margin:2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:00a99d;
+    border-radius: 5px;
+    height:34px;
+}
+
+.glyphicon {
+    font-size: 50px;
+}
+
+.ion-thumbsup{
+    color:#00a99d;
+}

@@ -1,0 +1,19 @@
+<ion-view>
+  <ion-content>
+    <div ng-show="hasAcc" class="list-card card-main">
+      Posts
+      <div class="item item-divider card-footer comment" ng-repeat="post in posts">
+          {{post.text}}
+      </div>
+    </div>
+
+    <div ng-show="hasAcc" class="list-card card-main">
+      Comments
+      <div class="item item-divider card-footer comment" ng-repeat="comment in comments">
+          {{comment.text}}
+      </div>
+    </div>
+    Choose an icon for you profile </br>
+    <i ng-repeat="icon in icons" class="{{icon}}" style="padding:50px" ng-click="setAccIcon(icon)"></i>
+  </ion-content>
+</ion-view>
