@@ -13,6 +13,10 @@
   color: #ffffff !important;
   text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
+.menu-header{
+        background-color: #00a99d;
+
+}
 .title{
     color: #fff;
 }
