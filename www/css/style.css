@@ -127,8 +127,9 @@ ion-content {
     text-align: center;
     display: inline-block;
     width: 50%;
+    
 }
 .user-icon{
     font-size: 3em;
-
+    padding-top:90px;
 }
