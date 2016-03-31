@@ -119,3 +119,16 @@ ion-content {
 .ion-thumbsup{
     color:#00a99d;
 }
+.icon-header{
+    color:#00a99d;
+}
+
+.icon-div{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
+.user-icon{
+    font-size: 3em;
+
+}

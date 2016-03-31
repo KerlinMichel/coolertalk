@@ -13,7 +13,10 @@
           {{comment.text}}
       </div>
     </div>
-    Choose an icon for you profile <br>
-    <i ng-repeat="icon in icons" class="{{icon}}" style="padding:50px" ng-click="setAccIcon(icon)"></i>
+        <div class="card"><h2 class="icon-header">Choose an icon for your profile</h2></div>
+      <div ng-repeat="icon in icons" class="icon-div">
+          <i  class="user-icon {{icon}}" style="padding:50px" ng-click="setAccIcon(icon)"></i>
+      </div>
+    
   </ion-content>
 </ion-view>
