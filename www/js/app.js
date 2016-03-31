@@ -22,7 +22,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'firebase'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
+    $ionicConfigProvider.backButton.text('').previousTitleText(false);
   $stateProvider
   .state('app', {
     url: '',
