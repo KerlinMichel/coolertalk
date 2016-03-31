@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/Afajet/Desktop/coolertalk/www/lib/ionic/js/angular/angular-sanitize.js",
+        "/Users/Afajet/Desktop/coolertalk/www/lib/ionic/js/ionic.min.js"
+    ]
+}
